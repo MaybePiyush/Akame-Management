@@ -846,7 +846,7 @@ def main():
 
 if __name__ == "__main__":
     LOGGER.info(
-        f"sᴜᴄᴄᴇssғᴜʟʟʏ ʟᴏᴀᴅᴇᴅ ᴍᴏᴅᴜʟᴇS Any issu JOIN @AbishnoiMF : {str(ALL_MODULES)}"
+        f"sᴜᴄᴄᴇssғᴜʟʟʏ ʟᴏᴀᴅᴇᴅ ᴍᴏᴅᴜʟᴇS Any issu JOIN @Chatting_Spot : {str(ALL_MODULES)}"
     )
     telethn.start(bot_token=TOKEN)
     pgram.start()
