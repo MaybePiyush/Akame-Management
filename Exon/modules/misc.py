@@ -329,7 +329,7 @@ def stats(update, context):
             status
             + "\n*ʙᴏᴛ sᴛᴀᴛɪsᴛɪᴄs*:\n"
             + "\n".join([mod.__stats__() for mod in STATS])
-            + "\n\n[ɢɪᴛʜᴜʙ](https://github.com/PiroXPiyush) | [ᴛᴇʟᴇɢʀᴀᴍ](https://t.me/SexyPiyush)\n\n"
+            + "\n\n[ɢɪᴛʜᴜʙ](https://github.com/SexyPiyush/AkameRobot) | [ᴛᴇʟᴇɢʀᴀᴍ](https://t.me/SexyPiyush)\n\n"
             + f"「 ʙʏ[⏤͟͞•ᴘɪʏᴜsʜᯓ🥀](t.me/{SexyPiyush}) 」\n",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -342,7 +342,7 @@ def stats(update, context):
                         "\n*ʙᴏᴛ sᴛᴀᴛɪsᴛɪᴄs*:\n"
                         + "\n".join(mod.__stats__() for mod in STATS)
                     )
-                    + "\n\n⍙ [ɢɪᴛʜᴜʙ](https://github.com/PiroXPiyush) | [ᴛᴇʟᴇɢʀᴀᴍ](https://t.me/SexyPiyush)\n\n"
+                    + "\n\n⍙ [ɢɪᴛʜᴜʙ](https://github.com/SexyPiyush/AkameRobot) | [ᴛᴇʟᴇɢʀᴀᴍ](https://t.me/SexyPiyush)\n\n"
                 )
                 + f"「 ʙʏ [⏤͟͞•ᴘɪʏᴜsʜᯓ🥀](t.me/SexyPiyush) 」\n"
             ),
