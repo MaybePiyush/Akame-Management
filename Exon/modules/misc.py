@@ -344,7 +344,7 @@ def stats(update, context):
                     )
                     + "\n\n⍙ [ɢɪᴛʜᴜʙ](https://github.com/PiroXPiyush) | [ᴛᴇʟᴇɢʀᴀᴍ](https://t.me/SexyPiyush)\n\n"
                 )
-                + f"「 ʙʏ [⏤͟͞•ᴘɪʏᴜsʜᯓ🥀](t.me/{SexyPiyush}) 」\n"
+                + f"「 ʙʏ [⏤͟͞•ᴘɪʏᴜsʜᯓ🥀](t.me/SexyPiyush) 」\n"
             ),
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
